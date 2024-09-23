@@ -1,3 +1,5 @@
-export default function name(params) {
-  return <View></View>;
+import PlaceForm from "../components/Places/PlaceForm";
+
+export default function AddPlace() {
+  return <PlaceForm />;
 }
