@@ -1,3 +1,3 @@
-export default function name(params) {
+export default function Map() {
   return <View></View>;
 }
