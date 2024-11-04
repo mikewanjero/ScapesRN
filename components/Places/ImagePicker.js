@@ -69,8 +69,9 @@ export default function ImagePicker() {
 
 const styles = StyleSheet.create({
   imagePreview: {
-    width: "100%",
+    width: "90%",
     height: 200,
+    marginLeft: 18,
     marginVertical: 8,
     justifyContent: "center",
     alignItems: "center",
