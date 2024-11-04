@@ -23,7 +23,7 @@ export default function ImagePicker() {
     if (cameraPermissionInformation.status === PermissionStatus.DENIED) {
       Alert.alert(
         "Insufficient access!",
-        "Camera access is needed for this application!"
+        "Enable camera to access this application!"
       );
 
       return false;
