@@ -43,7 +43,11 @@ export default function ImagePicker() {
       aspect: [16, 9],
       quality: 0.5,
     });
-    setPickedImage(image.uri);
+
+    if (!image.canceled) {
+      // Check if the user didn't cancel
+      setPickedImage(image.assets[0].uri);
+    }
   }
 
   let imagePreview = <Text>No image taken yet.</Text>;
