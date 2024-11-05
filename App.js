@@ -48,8 +48,8 @@ export default function App() {
               title: "Add New Place",
             }}
           />
-          {/* <Stack.Screen name="Map" component={Map} />
-        <Stack.Screen name="PlaceDetails" component={PlaceDetails} /> */}
+          <Stack.Screen name="Map" component={Map} />
+          {/* <Stack.Screen name="PlaceDetails" component={PlaceDetails} /> */}
         </Stack.Navigator>
       </NavigationContainer>
     </>
